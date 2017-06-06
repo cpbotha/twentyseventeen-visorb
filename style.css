@@ -1,0 +1,20 @@
+/*
+ Theme Name:   Twenty Seventeen VisOrb
+ Theme URI:    http://visible-orbit.org/
+ Description:  Twenty Seventeen child theme with sidebar on all pages
+ Author:       Charl P. Botha
+ Author URI:   https://vxlabs.com/
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-seventeen-visorb
+*/
+
+/* cpb: shorten massive 4em margin under page title; there's also a 1em padding! */
+.page.page-one-column .entry-header,
+.twentyseventeen-front-page.page-one-column .entry-header,
+.archive.page-one-column:not(.has-sidebar) .page-header {
+    margin-bottom: 1em;
+}
